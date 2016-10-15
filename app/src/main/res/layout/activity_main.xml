@@ -1,0 +1,157 @@
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/root">
+       <ImageView
+           android:id="@+id/head_image"
+           android:src="@drawable/tcl_log"
+           android:background="@color/white"
+           android:layout_width="match_parent"
+           android:layout_height="150dp" />
+        <TextView
+            android:id="@+id/tcl"
+            android:text="TCL Co,Ltd "
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/firebrick"/>
+
+        <!-- define Linearlayout user for test !  -->
+        <LinearLayout
+            android:id="@+id/linear_user"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Text_1"
+                android:text="用户名: "
+                android:textSize="20dp"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_gravity="center_vertical"
+                android:hint="请输入用户名称"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!-- define Linearlayout user for test !  -->
+        <LinearLayout
+            android:id="@+id/liner_pwd"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Text_2"
+                android:text="密码    :"
+                android:textSize="20dp"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:textColor="@color/black"/>
+            <!-- password -->
+            <EditText
+                android:inputType="textPassword"
+                android:id="@+id/password"
+                android:hint="请输入用户密码"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <CheckBox
+            android:id="@+id/checkboxpwd"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+      <!-- define Table layout for test -->
+      <TableLayout
+          android:id="@+id/Table_layout1"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="40dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="10dp">
+
+          <TableRow>
+              <Button
+                  android:id="@+id/ok"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginRight="0dp"
+                  android:layout_width="100dp"
+                  android:layout_height="wrap_content"
+                  android:text="登录"
+                  android:textColor="@color/green"/>
+              <Button
+                  android:id="@+id/help"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginRight="0dp"
+                  android:layout_width="100dp"
+                  android:layout_height="wrap_content"
+                  android:text="帮助"
+                  android:textColor="@color/green"/>
+              <Button
+                  android:id="@+id/register"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginRight="0dp"
+                  android:layout_width="100dp"
+                  android:layout_height="wrap_content"
+                  android:text="注册"
+                  android:textColor="@color/white"/>
+          </TableRow>
+      </TableLayout>
+        <!-- define framelayout for test ! -->
+        <!--
+        <FrameLayout
+            android:padding="60px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                 android:id="@+id/Text1"
+                 android:layout_gravity="center_vertical"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="10dp"
+                 android:gravity="center"
+                 android:text="One"
+                 android:layout_width="80dp"
+                 android:background="@color/red"
+                 android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Text2"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="110dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="Two"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow" />
+            <TextView
+                android:id="@+id/Text3"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="210dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="Three"
+                android:background="@color/green"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+       -->
+    </LinearLayout>
+
+

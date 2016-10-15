@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">my_fota_test_app</string>
+    <string name="search_hint">请收入要查找的内容</string>
+    <string name="action_settings">Settings</string>
+    <!--
+    <drawable name="click_normal">#d3d3d3</drawable>
+    <drawable name="click_press">#fffafa</drawable>
+    -->
+</resources>

@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="10dp"
+            android:text="设置"
+            android:textSize="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="25dp" />
+       <ImageView
+           android:id="@+id/search_setting"
+           android:scaleType="fitXY"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="320dp"
+           android:layout_width="30dp"
+           android:layout_height="30dp"
+           android:background="@drawable/search" />
+    </RelativeLayout>
+    <TextView
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="系统"
+        android:includeFontPadding="true"
+        android:textColor="@color/black"
+        android:background="@color/lightgray"/>
+<!--
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+        <Button
+            android:layout_width="46dp"
+            android:layout_height="45dp"
+            android:background="@drawable/back" />
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:maxWidth="400dp"
+            android:background="@color/white"
+            android:queryHint="请收入要查找的内容"/>
+
+    </LinearLayout>
+-->
+
+
+</LinearLayout>
+
