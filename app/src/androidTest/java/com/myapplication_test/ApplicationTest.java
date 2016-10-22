@@ -1,4 +1,4 @@
-package com.example.fangjunxu.myapplication_test;
+package com.myapplication_test;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

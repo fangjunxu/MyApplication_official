@@ -4,7 +4,7 @@
  * just for test view functions
  *
  */
-package com.example.fangjunxu.myapplication_test.utils;
+package com.myapplication_test.utils;
 
 import android.content.Context;
 import android.graphics.Canvas;

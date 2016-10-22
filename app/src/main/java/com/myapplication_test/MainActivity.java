@@ -3,7 +3,7 @@
  *  Mainactivity for test
  *
  */
-package com.example.fangjunxu.myapplication_test;
+package com.myapplication_test;
 
 import android.app.Activity;
 import android.content.Intent;
